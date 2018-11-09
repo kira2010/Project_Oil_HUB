@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Project_Oil_HUB</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">전국평균가</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="location_permission_denied">location_permission_denied</string>
+    <string name="permission_rationale_location">permission_rationale_location</string>
+
+    <string name="today_avgPrice">시/도별 오늘의 평균가</string>
+    <string name="recent_price_7days">최근 7일간 전국 일일 평균가</string>
+    <string name="lowTop_gasStation">지역별 최저가 주유소</string>
+    <string name="lastWeek_average">시/도별 1주간 평균유가</string>
+    <string name="local_avg_title">지역별 평균가격</string>
+    <string name="detail_info">주유소 상세 정보</string>
+    <string name="setting_text">설정</string>
+    <string name="unit">단위 : 원/ℓ</string>
+    <string name="detail_text">※ 가격정보는 특정시점의 가격이므로 실제와 다를 수 있습니다.</string>
+    <string name="lowTop10_Result">최저가 주유소 Top10 검색 결과</string>
+
+    <string name="start_day">시작 일자</string>
+    <string name="end_day">종료 일자</string>
+
+    <string name="oilType">유종</string>
+    <string name="price">가격</string>
+    <string name="variation">변동율</string>
+    <string name="date">날짜</string>
+    <string name="price_info">가격 정보</string>
+    <string name="additional_facilities">부대 시설</string>
+    <string name="research">검색</string>
+    <string name="research_Local">지역 검색</string>
+
+    <string name="select_Oil">유종 선택</string>
+    <string name="select_Local">지역 선택</string>
+
+    <string name="empty_text">-</string>
+
+    <string name="Gasoline">휘발유</string>
+    <string name="Diesel">경유</string>
+    <string name="LPG">LPG</string>
+    <string name="PremiumGasoline">고급휘발유</string>
+    <string name="LampOil">등유</string>
+
+    <string-array name="oilType">
+        <item>휘발유</item>
+        <item>경유</item>
+        <item>고급휘발유</item>
+        <item>LPG</item>
+        <item>등유</item>
+    </string-array>
+
+    <string-array name="radius">
+        <item>1km</item>
+        <item>2km</item>
+        <item>3km</item>
+        <item>4km</item>
+        <item>5km</item>
+    </string-array>
+
+    <string-array name="sortMethod">
+        <item>최저가순</item>
+        <item>거리순</item>
+    </string-array>
+
+</resources>

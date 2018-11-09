@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_todayAvgPrice"
+            android:icon="@drawable/todayoil"
+            android:title="@string/today_avgPrice" />
+        <item
+            android:id="@+id/nav_LW_avg"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/lastWeek_average" />
+        <item
+            android:id="@+id/nav_recent_price_7days"
+            android:icon="@drawable/gasstation"
+            android:title="@string/recent_price_7days" />
+        <item
+            android:id="@+id/nav_lowTop_gasStation"
+            android:icon="@drawable/findgasstation"
+            android:title="@string/lowTop_gasStation" />
+    </group>
+
+</menu>
