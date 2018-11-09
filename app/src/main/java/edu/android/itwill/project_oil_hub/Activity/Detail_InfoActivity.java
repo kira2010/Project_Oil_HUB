@@ -50,7 +50,7 @@ public class Detail_InfoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail__info);
+        setContentView(R.layout.activity_detail_info);
 
         readJson = ReadJson.getInstance();
 
